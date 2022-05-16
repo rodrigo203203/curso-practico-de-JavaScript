@@ -44,3 +44,13 @@ function CalcularAreaCuadrado() {
   const area = areaCuadrado(value);
   alert(area);
 }
+function CalcularAreaTriangulo(){
+  const inputA = document.getElementById("InputTrianguloA");
+  const valueA = inputA.value;
+  const inputB = document.getElementById("InputTrianguloB");
+  const valueB = inputB.value;
+  const inputC = document.getElementById("InputTrianguloC");
+  const valueC = inputC.value;
+  const area = areaTriangulo(valueA, valueB, valueC)
+  alert(area);
+}
