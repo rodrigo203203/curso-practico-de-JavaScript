@@ -16,3 +16,8 @@ Curso tomado en la plataforma de Platzi
 - Segundo paso: implementar las formulas en JavaScript
 - Tercer paso: crear funciones
 - Cuarto paso: integral JavaScript con HTML
+
+## Taller #3: Promedio, media y moda
+- Primer paso: definir las formulas
+- Segundo paso: implementar las formulas en JavaScript
+- Tercer paso: crear funciones 
