@@ -4,13 +4,11 @@ function calcularPrecioConDescuento (precio,descuento){
     return precioConDescuento;
 }
 function respuestaConDescuento(){
-    const inputPrecio = document.getElementById("inputPrice");
+    const inputPrecio = document.getElementById("InputPrice");
     const precio = inputPrecio.value;
-    debugger;
-    const inputDescuento = document.getElementById("inputDescuento");
+    const inputDescuento = document.getElementById("InputDescuento");
     const descuento = inputDescuento.value;
     const precioConDescuento = calcularPrecioConDescuento(precio, descuento);
     const resultP = document.getElementById("ResultP"); 
     resultP.innerText = "El precio con descuento es de $" + precioConDescuento;
-    console.log(resultP);
 }
